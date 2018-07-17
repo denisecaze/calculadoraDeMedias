@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	font-family: Calibri;	
+}
+
+body {
+	background-color: lightgrey;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+form {
+	position: relative;
+
+}
+
+label {
+	display: inline-block;
+	width: 105px;
+}
+
+input {
+    width: 150px;   
+    padding-left: 5px;
+    box-sizing: border-box;
+}

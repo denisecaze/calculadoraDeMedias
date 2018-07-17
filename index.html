@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=’pt-BR’>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculadora de Notas</title>
+		<link rel="stylesheet" href="app.css"></style>
+	</head>
+	<body>
+		<fieldset>
+			<legend>NOTAS DA TURMA LABORATORIA SP 2018</legend>
+			<label>Nome da aluna:</label>
+			<input type="text" id="aluna"><br><br>
+			<form>
+				<label>Primeira nota: </label>
+				<input type="text" id="nota1"><br>
+				<label>Segunda nota: </label>
+				<input type="text" id="nota2"><br>
+				<label>Terceira nota: </label>
+				<input type="text" id="nota3"><br>
+				<button type="button" onclick="calculate()">Calcular</button>
+			</form>
+		</fieldset>
+		<p id="mensagem"></p>
+		<script src="script.js"></script>
+	</body>
+</html>
